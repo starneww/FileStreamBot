@@ -11,11 +11,11 @@ from pyrogram.enums.parse_mode import ParseMode
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
-<i>🌹 Hᴇʏ ʏᴏᴜ </i>{}\n
+<i>🌹 Hᴇʏ </i>{}\n
 <i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Dɪʀᴇᴄᴛᴅ ᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ</i>\n
 <i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n\n
-<i><u>🚸 ᴡᴀʀɴɪɴɢ 🚸</u></i>
-<b>⚠ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.ʏᴏᴜ 🙂</b>\n\n
+<i><u>🚸ᴡᴀʀɴɪɴɢ🚸</u></i>
+<b>⚠ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.ʏᴏᴜ 🙂</b>\n
 <i><b>😈Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@robo_glitch</b>"""
 
 HELP_TEXT = """
