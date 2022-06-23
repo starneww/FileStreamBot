@@ -14,8 +14,8 @@ START_TEXT = """
 <i>🌹 Hᴇʏ </i>{}\n
 <i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Dɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ</i>\n
 <i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
-<i><u>🚸ᴡᴀʀɴɪɴɢ🚸</u>\n
-<b>⚠ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.ʏᴏᴜ 🙂</b>\n
+<i><u>⚠ ᴡᴀʀɴɪɴɢ ⚠</u>\n
+<b>ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.ʏᴏᴜ 🙂</b>\n
 <i><b>😈Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@robo_glitch</b>"""
 
 HELP_TEXT = """
@@ -38,16 +38,16 @@ ABOUT_TEXT = """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('📍 Hᴇʟᴘ 📍', callback_data='help'),
-        InlineKeyboardButton('🔮 Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🔮 Aʙᴏᴜᴛ 🔮', callback_data='about'),
         ],[
         InlineKeyboardButton('📢 ᴄʜᴀɴɴᴇʟ', url="https://t.me/hddubhub4u"), 
-        InlineKeyboardButton('❌ Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('❌ Cʟᴏsᴇ ', callback_data='close')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('🔮 Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🔮 Aʙᴏᴜᴛ 🔮', callback_data='about'),
         ],[
         InlineKeyboardButton('🤖 ᴏᴛʜᴇʀ ʙᴏᴛs', url="https://t.me/hddubhub4u"), 
         InlineKeyboardButton('❌ Cʟᴏsᴇ', callback_data='close')
