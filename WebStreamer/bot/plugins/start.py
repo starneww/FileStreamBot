@@ -11,20 +11,20 @@ from pyrogram.enums.parse_mode import ParseMode
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
-<i>👋 Hᴇʏ ʏᴏᴜ </i>{}\n
+<i>🌹 Hᴇʏ ʏᴏᴜ </i>{}\n
 <i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Dɪʀᴇᴄᴛᴅ ᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ</i>\n
 <i>Cʟɪᴄᴋ ᴏɴ Hᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n\n
-<i><u>ᴡᴀʀɴɪɴɢ 🚸</u></i>
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n\n
-<i><b>😈 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@robo_glitch</b>"""
+<i><u>🚸 ᴡᴀʀɴɪɴɢ 🚸</u></i>
+<b>⚠ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.ʏᴏᴜ 🙂</b>\n\n
+<i><b>😈Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@robo_glitch</b>"""
 
 HELP_TEXT = """
 <i>- Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>
 <i>- I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</i>
 <i>- Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>
 <i>- Tʜɪs ɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</i>\n
-<u>🔸 ᴡᴀʀɴɪɴɢ 🚸</u>\n
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n\n
+<u>🚸 ᴡᴀʀɴɪɴɢ 🚸</u>\n
+<b>⚠ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛs ᴀʀᴇ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ & ɢᴇᴛ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ 🙂</b>\n\n
 <i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/robo_glitch'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
 ABOUT_TEXT = """
@@ -37,7 +37,7 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📍 Hᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('📍 Hᴇʟᴘ 📍', callback_data='help'),
         InlineKeyboardButton('🔮 Aʙᴏᴜᴛ', callback_data='about'),
         ],[
         InlineKeyboardButton('📢 ᴄʜᴀɴɴᴇʟ', url="https://t.me/hddubhub4u"), 
@@ -56,9 +56,9 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('📍 Hᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('📍 Hᴇʟᴘ 📍', callback_data='help'),
         ],[
-        InlineKeyboardButton('📮 Sᴜᴘᴘᴏʀᴛ', url="https://t.me/hddubhub4u"), 
+        InlineKeyboardButton('📮 Sᴜᴘᴘᴏʀᴛ', url="https://t.me/dubbedweb"), 
         InlineKeyboardButton('❌ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
